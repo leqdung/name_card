@@ -1,0 +1,36 @@
+name: dicee
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/avatar.jpg
+  fonts:
+  - family: Pacifico
+    fonts:
+    - asset: assets/fonts/Pacifico-Regular.ttf
+
+  - family: Source Code Pro
+    fonts:
+    - asset: assets/fonts/SourceCodePro-Italic-VariableFont_wght.ttf
+    - asset: assets/fonts/SourceCodePro-VariableFont_wght.ttf
